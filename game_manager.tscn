@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1tfbx7sl2tm2"]
+
+[ext_resource type="Script" path="res://Scripts/gamemanager.gd" id="1_8xdm2"]
+[ext_resource type="FontFile" uid="uid://hrv3j67sqcv8" path="res://brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf" id="2_xi44u"]
+
+[node name="GameManager" type="Node"]
+script = ExtResource("1_8xdm2")
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = 320.0
+offset_top = 168.0
+offset_right = 487.0
+offset_bottom = 176.0
+theme_override_fonts/font = ExtResource("2_xi44u")
+theme_override_font_sizes/font_size = 8
+text = "You collected 0 coins..."
